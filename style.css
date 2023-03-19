@@ -481,4 +481,7 @@ nav .fas {
     .contact-right {
         margin-left: 60px;
     }
+    .work h1 {
+        margin-left: 0px;
+    }
 }
