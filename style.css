@@ -484,4 +484,8 @@ nav .fas {
     .work h1 {
         margin-left: 0px;
     }
+	
+    .fa-times {
+        margin-left: 30px;
+    }
 }
