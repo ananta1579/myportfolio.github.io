@@ -12,14 +12,16 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="logonew2.png" alt="" class="logo">
-                <ul>
+                <img src="./img/logonew2.png" alt="" class="logo">
+                <ul id="sidemenu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#edu">Education</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
                 </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
             </nav>
 
             <div class="header-text">
@@ -31,7 +33,9 @@
                             <span>Assam</span>
                             <span>অসম</span>
                             <span>Assam</span>
+                            
                           </div>
+                          
                 </h1>                
             </div>
         </div>
@@ -164,6 +168,17 @@
         </div>
     </div>    
     <!-- contact -->
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
     
 </body>
 </html>
