@@ -412,7 +412,7 @@ nav .fas {
         background-image: url(./img/imgres.jpg);
     }
     .header-text {
-        margin-top: 80%;
+        margin-top: 100%;
         font-size: 16px;
         margin-left: 0%;
         margin-left: 0%;
@@ -420,6 +420,7 @@ nav .fas {
     nav .fas {
         display: block;
         font-size: 25px;
+	margin-right: 20px;
     }
 
     nav ul {
